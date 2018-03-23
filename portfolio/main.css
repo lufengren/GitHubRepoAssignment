@@ -96,9 +96,7 @@ p {
     margin-right: 6px;
     margin-bottom: 4px;
 }
-#button {
-    text-align: center;
-}
+
 button {
     background-color: #417e62;
     color:white;
@@ -109,5 +107,8 @@ button {
 span {
     display:block;
     margin-top:10px;
+    text-align: center;
+}
+.button {
     text-align: center;
 }
