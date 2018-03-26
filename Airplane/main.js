@@ -1,5 +1,5 @@
 var missiles = [];
-var missilesele = document.getElementById("missiles");
+
 
 function drawPlayer() {
     var player = document.getElementById("player");
@@ -19,14 +19,12 @@ function drawEnemies() {
 
 
 function drawMissiles(){
-    for(var i=0;i<missiles.length;i++){
+        var missilesele = document.getElementById("missiles");
         var missile = document.createElement("div");
         missile.setAttribute("class","missiles");
-        missile.style.left = missiles[i].left+"px";
-        missile.style.top = missiles[i].top+"px";
+        missile.style.left = missiles[missiles.length-1].left+"px";
+        missile.style.top = missiles[missiles.length-1].top+"px";
         missilesele.appendChild(missile);
-        
-    }
 }
 
 function movePlayer(){
