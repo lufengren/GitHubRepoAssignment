@@ -1,8 +1,8 @@
 $(function(){
     $("#container img").click(function(){
-        $(this).hide();
+        $(this).css("visibility","hidden");
     });
     $("#reset").click(function(){
-        $("#container img").show();
+        $("#container img").css("visibility","visible");
     });
 });
