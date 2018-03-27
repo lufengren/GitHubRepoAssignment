@@ -1,14 +1,23 @@
-function playSlots(quartersQuantity){
-    while(quartersQuantity>0){
-      quartersQuantity--;
-      var chance = Math.floor(Math.random()*101);
+function playSlots(initquarters,targetquarters){
+    while(initquarters>0){
+        if(initquarters==targetquarters){
+          console.log("you win and exit!");
+          return;
+        }
+      initquarters--;
+      var chance = Math.floor(Math.random()*100);
       if(chance == 3){
         var winquarters = Math.floor(Math.random()*51+50);
-        quartersQuantity += winquarters;
-        console.log("you total quarters is "+quartersQuantity);
+        initquarters += winquarters;
+        console.log("you total quarters is "+initquarters);
       }
     }
     return 0;
     //console.log("0");
   }
   playSlots(10);
+
+
+
+
+  
