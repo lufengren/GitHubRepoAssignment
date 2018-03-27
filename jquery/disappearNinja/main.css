@@ -1,0 +1,7 @@
+#container {
+    width: 400px;
+    text-align: center;
+}
+img {
+    display: inline-block;
+}
