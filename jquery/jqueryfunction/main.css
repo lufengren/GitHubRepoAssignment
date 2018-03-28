@@ -1,0 +1,9 @@
+
+#container {
+    padding:20px;
+    background-color: lightgrey;
+    width:600px;
+}
+.red {
+    color:red;
+}
