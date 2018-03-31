@@ -1,0 +1,38 @@
+#wrapper {
+    width:400px;
+    height: 400px;
+    font-size: 0;
+}
+
+.wall {
+    width:40px;
+    height: 40px;
+    background: blue;
+    display: inline-block;
+}
+.ground {
+    width:40px;
+    height: 40px;
+    background: black;
+    display: inline-block;
+    background-image: url(pacman1.ico);
+    background-size: 40px 40px;
+}
+.packman {
+    width:40px;
+    height: 40px;
+    background: black;
+    display: inline-block;
+    background-image: url(pacman.png);
+    background-size: 40px 40px;
+    
+}
+.init {
+    width:40px;
+    height: 40px;
+    background: black;
+    display: inline-block;
+}
+h3 {
+    margin-left:180px;
+}
