@@ -5,8 +5,12 @@ app = Flask(__name__)    # Global variable __name__ tells Flask whether or not w
 def hello_world():
   return render_template('index.html') 
 
-@app.route('/success')
-def success():
-  return render_template('success.html')
-  # Return the string 'Hello World!' as a response.
-app.run(debug=True)      # Run the app in debug mode.
+@app.route('/about')
+def about():
+  return render_template('about.html')
+
+@app.route('/project')
+def project():
+  return render_template('project.html')
+                                            # Return the string 'Hello World!' as a response.
+app.run(debug=True)                          # Run the app in debug mode.
