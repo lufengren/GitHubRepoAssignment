@@ -10,14 +10,5 @@ def displayninja():
 
 @app.route('/ninja/<color>')
 def disappearninja(color):
-    if color=="blue":
-        return render_template("disninja1.html")
-    elif color=="orange":
-        return render_template("disninja2.html")
-    elif color=="red":
-        return render_template("disninja3.html") 
-    elif color=="purple":
-        return render_template("disninja4.html")
-    else:
-        return render_template("other.html")
+    return render_template("disninja.html",color=color)
 app.run(debug=True)
