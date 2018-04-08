@@ -4,28 +4,31 @@ app = Flask(__name__)
 app.secret_key = 'ThisIsSecret'
 @app.route('/')
 def index():
-    session["ranum"] = random.randrange(1,101)
+    if "ranum" not in session:
+        session["ranum"] = random.randrange(1,101)
+        print session["ranum"]
+        return render_template("index.html",resettype="hidden",formstate="displayform")
     
-    return render_template("index.html",type="text",submitvalue="submit")
+    if session['guessval']> session["ranum"]:
+        result = "Too high"
+        return render_template("index.html",lost="lost",lostresult=result,resettype="hidden",formstate="displayform")
+    elif session['guessval']< session["ranum"]:
+        result = "Too low"
+        return render_template("index.html",lost="lost",lostresult=result,resettype="hidden",formstate="displayform")
+    elif session['guessval']==session["ranum"]:
+        result = "{} was the number!".format(session['ranum'])
+        return render_template("index.html",win="win",winresult=result,resettype="submit",formstate="hideform")
+    
     
 @app.route('/process',methods=['POST'])
 def process():
-    number = int(request.form['number'])
-    if number> session["ranum"]:
-        result = "Too high"
-        return render_template("index.html",classname="result",result=result,type="text",submitvalue="submit")
-    elif number< session["ranum"]:
-        result = "Too low"
-        return render_template("index.html",classname="result",result=result,type="text",submitvalue="submit")
-    elif number==session["ranum"]:
-        result = "{} was the number!".format(session['ranum'])
-        return render_template("index.html",win="win",winresult=result,type="hidden",submitvalue="play again")
+    session['guessval'] = int(request.form['guessval'])
+    
     return redirect("/")
 
-@app.route('/win',methods=['POST'])
-def win():
-    print "helloe"
-    #session.pop('ranum')
+@app.route('/reset',methods=['POST'])
+def reset():
+    session.pop('ranum')
     return redirect("/")
 
 app.run(debug=True)

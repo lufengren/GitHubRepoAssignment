@@ -12,13 +12,17 @@
     <h2>Welcome to Great Number Game!</h2>
     <p>I'm thinking of a number between 1 and 100</p>
     <p>Take a guess!</p>
-    <div class={{ classname }} >{{result}}</div>
+    <div class={{ lost }} >{{lostresult}}</div>
     <div class={{ win }} >{{winresult}}
-        <form action="/process" method="post">
-            <input type={{ type }} name="number"> <br>
-            <input type="submit" value={{ submitvalue }}>
-        </form>
+    <form action="/reset" method="post">
+        <input type={{resettype }} value="play again">
+    </form>
     </div>
+    <form action="/process" method="post" class={{ formstate }}>
+        <input type="text" name="guessval"> <br>
+        <input type="submit" value="submit">
+    </form>
+    
     <div>
         
     </div>

@@ -1,4 +1,4 @@
-.result {
+.lost {
     width:200px;
     height: 200px;
     background-color: red;
@@ -13,9 +13,9 @@
     text-align: center;
     font-size:20px;
 }
-.notdisplay {
-    display: none;
+.displayform {
+    display: block;
 }
-.display {
-    display: inline-block;
+.hideform {
+    display: none;
 }
