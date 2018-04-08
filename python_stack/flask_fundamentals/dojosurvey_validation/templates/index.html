@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css') }}"> 
+</head>
+<body>
+    <form action="/result" method="post">
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <p>{{message}}</p>
+        {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    Your name: <input type="text" name="name" > <br>
+    Dojo Location: <select name="locselect" >
+        <option value="sanjose">San Jose</option>
+        <option value="seattle">Seattle</option>
+        <option value="newyork">New York</option>
+    </select> <br>
+    Favorite Language: <select name="language" >
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="c#">C#</option>
+    </select> <br>
+    Comment(optional): <br>
+    <textarea name="comment" cols="30" rows="10"></textarea> <br>
+    <input type="submit" value="submit">
+    </form>
+</body>
+</html>
