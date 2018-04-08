@@ -52,7 +52,7 @@
     </div>
     <p>Activities:</p>
     <span>
-        {% for item in session['activity']: %}
+        {% for color,item in session['activity']: %}
         <p class={{ color }} >{{ item }}</p>
         {% endfor %}
     </span>
