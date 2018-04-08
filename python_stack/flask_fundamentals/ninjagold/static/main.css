@@ -22,3 +22,9 @@ span {
     border: 2px solid black;
     overflow:auto;
 }
+.greencolor {
+    color:rgb(104, 151, 104);
+}
+.redcolor {
+    color:rgb(236, 62, 62);
+}
