@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <!-- <link rel="stylesheet" href="../static/main.css"> -->
+</head>
+<body>
+    <h2>Welcome to Great Number Game!</h2>
+    <p>I'm thinking of a number between 1 and 100</p>
+    <p>Take a guess!</p>
+    <div class={{ classname }} >{{result}}</div>
+    <div class={{ win }} >{{winresult}}
+        <form action="/process" method="post">
+            <input type={{ type }} name="number"> <br>
+            <input type="submit" value={{ submitvalue }}>
+        </form>
+    </div>
+    <div>
+        
+    </div>
+</body>
+</html>
+
+
+<!-- <a href="/win"><button class={{ buttonstate }}>play again</button></a> -->
