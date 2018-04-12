@@ -10,8 +10,14 @@
 <body>
     <p class='successmsg'>The email address you entered (<u>{{ session['email'] }}</u>) is a valid emailaddress!Thank you!</p>
     <p><u>{{ info }}</u></p>
-    {% for email in emails: %}
-    <p>{{email['email']}}</p>
-    {%endfor%}
+    <table>
+        {%for email in emails:%}
+        <tr>
+            <td>{{email['email']}}</td>
+            <td>{{email['created_at'].strftime('%m/%d/%Y %I:%M %p')}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+    
 </body>
 </html>

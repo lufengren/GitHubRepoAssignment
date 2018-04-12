@@ -6,4 +6,6 @@
     width:300px;
     background-color: green;
 }
-
+td {
+    padding-right:20px;
+}

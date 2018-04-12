@@ -21,7 +21,7 @@ def validation():
         flash("Invalid Email Address!")
         return redirect('/')
     else:
-        query = "INSERT INTO emails (email) VALUES (:email)"
+        query = "INSERT INTO emails (email,created_at,updated_at) VALUES (:email,now(),now())"
         data = {
             'email':session['email']
         }
@@ -30,7 +30,7 @@ def validation():
 @app.route("/success")
 def showemails():
     info = "Email Address Entered:"
-    emails = mysql.query_db("SELECT email,created_at FROM emails")
+    emails = mysql.query_db("SELECT * FROM emails")
     return render_template("success.html",info=info,emails=emails)
 
 
