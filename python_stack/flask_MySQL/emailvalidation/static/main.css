@@ -1,0 +1,9 @@
+.invalidmsg {
+    width:200px;
+    background-color: red;
+}
+.successmsg {
+    width:300px;
+    background-color: green;
+}
+
