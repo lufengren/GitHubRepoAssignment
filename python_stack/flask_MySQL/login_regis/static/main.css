@@ -1,0 +1,9 @@
+p {
+    color:red;
+}
+
+.indexform {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+}
