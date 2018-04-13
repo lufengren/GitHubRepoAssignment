@@ -1,9 +1,35 @@
-p {
-    color:red;
+* {
+    padding:0;
+    margin:0;
 }
-
+body {
+    padding:20px;
+}
 .indexform {
     display: inline-block;
     vertical-align: top;
     margin-right: 50px;
+}
+h1 {
+    display: inline-block;
+    margin-right: 800px;
+}
+span {
+    display: inline-block;
+    margin-right: 50px;
+}
+.post {
+    background-color: rgb(27, 27, 153);
+    margin-left: 450px;
+    color:white;
+}
+.errorinfo {
+    color:red;
+}
+.comments {
+    color:rgb(128, 165, 128);
+    margin-left: 20px;
+}
+.comment {
+    background-color: rgb(128, 165, 128);
 }

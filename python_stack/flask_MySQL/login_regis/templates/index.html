@@ -8,61 +8,25 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 </head>
 <body>
-
-    <form action="/process" method="post" class="indexform">
-        <input type="hidden" name="action" value="register">
-        {%  with messages = get_flashed_messages(category_filter=["emptyerror"])  %}
-            {% if messages %}
-                {% for message in messages: %}
-                    <P>{{message}}</P>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
-
-        {%  with messages = get_flashed_messages(category_filter=["nameerror"])  %}
-            {% if messages %}
-                {% for message in messages: %}
-                    <P>{{message}}</P>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
+    {%  with messages = get_flashed_messages()  %}
+        {% if messages %}
+            {% for message in messages: %}
+                <P class="errorinfo">{{message}}</P>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+   
+    <form action="/register" method="post" class="indexform">
+        <!-- <input type="hidden" name="action" value="register"> -->
         firstname:<input type="text" name="firstname"> <br>
         lastname:<input type="text" name="lastname"> <br>
-        {%  with messages = get_flashed_messages(category_filter=["emailerror"])  %}
-            {% if messages %}
-                {% for message in messages: %}
-                    <P>{{message}}</P>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
         email: <input type="text" name="email"> <br>
-        {%  with messages = get_flashed_messages(category_filter=["passworderror"])  %}
-        {% if messages %}
-            {% for message in messages: %}
-                <P>{{message}}</P>
-            {% endfor %}
-        {% endif %}
-        {% endwith %}
         password: <input type="password" name="password"> <br>
-        {%  with messages = get_flashed_messages(category_filter=["confirpasserror"])  %}
-        {% if messages %}
-            {% for message in messages: %}
-                <P>{{message}}</P>
-            {% endfor %}
-        {% endif %}
-        {% endwith %}
         confirm password: <input type="password" name="confirmpass"> <br> 
         <input type="submit" value="register">       
     </form>
-    <form action="/process" method="POST" class="indexform">
-        <input type="hidden" name="action" value="login">
-        {%  with messages = get_flashed_messages(category_filter=["loginerror"])  %}
-        {% if messages %}
-            {% for message in messages: %}
-                <P>{{message}}</P>
-            {% endfor %}
-        {% endif %}
-        {% endwith %}
+    <form action="/login" method="POST" class="indexform">
+        <!-- <input type="hidden" name="action" value="login"> -->
         Email:<input type="text" name="email"> <br>
         Password:<input type="password" name="password"> <br>
         <input type="submit" value="login">
