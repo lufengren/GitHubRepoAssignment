@@ -1,0 +1,13 @@
+p {
+    width:200px;
+    margin:20px auto;
+    border:1px solid black;
+    padding:10px 20px;
+  }
+h1 {
+    width:300px;
+    margin:20px auto;
+    border:1px solid black;
+    padding:10px 20px;
+    text-align: center;
+  }
