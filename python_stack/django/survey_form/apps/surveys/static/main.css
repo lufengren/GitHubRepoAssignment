@@ -1,0 +1,28 @@
+* {
+  line-height: 25px;
+}
+form {
+  width:400px;
+  border:1px solid black;
+  padding:10px;
+}
+input[type='text']{
+  margin-left: 70px;
+}
+select {
+  margin-left:50px;
+  width:130px;
+}
+.result {
+  width:400px;
+}
+p {
+  border:1px solid black;
+  background-color: green;
+}
+.resultinfo {
+  border:1px solid black;
+}
+td {
+  padding-right:40px;
+}
