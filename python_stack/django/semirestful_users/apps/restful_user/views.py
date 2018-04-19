@@ -16,9 +16,12 @@ def create(request):
     lastname=request.POST['lastname']
     email=request.POST['email']
     User.objects.create(first_name=firstname,last_name=lastname,email=email)
-    return redirect("/users/create")
+    users=User.objects.filter(first_name=firstname)
+    passid=str(users[0].id)
+    return redirect("/users/"+passid)
 def edit(request,passid):
     return render(request,'edit.html',{'user':User.objects.get(id=passid)})
+
 def update(request,passid):
     firstname=request.POST['firstname']
     lastname=request.POST['lastname']
@@ -28,8 +31,10 @@ def update(request,passid):
     user.last_name=lastname
     user.email=email
     user.save()
-    return redirect("/users")
+    return redirect("/users/"+passid)
+
 def destroy(request,passid):
     user=User.objects.get(id=passid)
     user.delete()
     return redirect("/users")
+
