@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main.css' %}" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+    {% if messages %}
+        {% for message in messages %}
+            <p class="red">{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+    <form action="/register" method="post" class="indexform">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>Firstname:</td>
+                <td>
+                    <input type="text" name="firstname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Lastname:</td>
+                <td>
+                    <input type="text" name="lastname" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="text" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Confirm password:</td>
+                <td>
+                    <input type="password" name="confirmpwd" required>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="register">
+    </form>
+
+    <form action="/login" method="POST" class="indexform">
+        {% csrf_token %}
+        <table>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="text" name="logemail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" name="logpassword" required>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="login">
+    </form>
+
+</body>
+
+</html>
