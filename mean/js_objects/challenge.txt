@@ -1,0 +1,24 @@
+function challenge1(arr){
+  for (var i=0; i<arr.length; i++){
+    var sum="";
+    for(var key in arr[i]){
+      str=key+":"+arr[i][key]+","
+      sum+=str;
+    } 
+    console.log(sum);
+    
+  }
+}
+
+
+function challenge2(obj){
+  for (var key in obj){
+    console.log(key);
+    var arr=obj[key];
+    for(var i=0;i<arr.length;i++){
+      var namelen=(arr[i]['last_name']).length+(arr[i]['first_name']).length;
+      var record=(i+1)+" - "+arr[i]['last_name']+", "+arr[i]['first_name']+" - "+namelen;
+      console.log(record);
+    }
+  }
+}
