@@ -1,0 +1,35 @@
+$(function(){
+   $.get("https://opentdb.com/api.php?amount=3&category=10",function(res){
+    var questionarr=res.results;
+    console.log(questionarr);
+    $(".content h3").append(questionarr[0].category);
+    for(var i=0;i<questionarr.length;i++){
+        $(".content form").append("<br>"+questionarr[i].question+"<br>");
+        value=questionarr[i].correct_answer;
+        var answer="<br><input type='radio' name='answer' value='"+value+"'>"+value+"<br>";
+        $(".content form").append(answer);
+        var answerarr=questionarr[i].incorrect_answers;
+        for(var j=0;j<answerarr.length;j++){
+            var answers="<br><input type='radio' name='answer' value='"+answerarr[j]+"'>"+answerarr[j]+"<br>";
+            $(".content form").append(answers);
+        }
+    }
+    
+    
+   });
+});
+
+
+
+
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 200px;
+    width: 200px;
+    
+}
+.subcontent {
+    background-color: lightgray;
+}

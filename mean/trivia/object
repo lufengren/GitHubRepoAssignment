@@ -1,0 +1,90 @@
+objects are addressed by reference, not by value.
+
+A JavaScript object is a collection of unordered properties.
+Properties can usually be changed, added, and deleted, but some are read only.
+
+You cannot use reserved words for property (or method) names. JavaScript naming rules apply.
+
+
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    fullName : function() {
+       return this.firstName + " " + this.lastName;
+    }
+};
+
+
+var person = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+};
+person.name = function() {
+    return this.firstName + " " + this.lastName;
+};
+
+
+
+
+The delete keyword deletes a property from an object:
+The delete keyword deletes both the value of the property and the property itself.
+After deletion, the property cannot be used before it is added back again.
+The delete operator is designed to be used on object properties. It has no effect on variables or functions.
+The delete operator should not be used on predefined JavaScript object properties. It can crash your application.
+
+
+var person = {
+    firstname:"John",
+    lastname:"Doe",
+    age:50,
+    eyecolor:"blue"
+};
+delete person.age;
+
+
+constructors
+
+function Person(first, last, age, eye) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eye;
+}
+In JavaScript, the thing called this is the object that "owns" the code.
+The value of this, when used in an object, is the object itself.
+In a constructor function this does not have a value. It is a substitute for the new object. The value of this will become the new object when a new object is created.
+
+To add a new property to a constructor, you must add it to the constructor function:
+native object && golbal object
+Math is a global object. The new keyword cannot be used on Math???
+
+
+Strings Can be Objects
+Normally, JavaScript strings are primitive values, created from literals:
+var firstName = "John";
+But strings can also be defined as objects with the keyword new:
+var firstName = new String("John");
+
+var x = "John";
+var y = new String("John");
+// typeof x will return string
+// typeof y will return object
+
+Don't create strings as objects. It slows down execution speed.
+The new keyword complicates the code. This can produce some unexpected results:
+When using the == operator, equal strings are equal:
+(x == y) is true because x and y have equal values
+When using the === operator, equal strings are not equal, because the === operator expects equality in both type and value.
+Or even worse. Objects cannot be compared:
+var x = new String("John");             
+var y = new String("John");
+// (x == y) is false because x and y are different objects
+// (x === y) is false because x and y are different objects
+Note the difference between (x==y) and (x===y).
+Comparing two JavaScript objects will always return false.
+
+
+
+

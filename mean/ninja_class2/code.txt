@@ -1,0 +1,34 @@
+function Ninja(name){
+  var speed=3;
+  var strength=3;
+  this.name=name;
+  this.health=100;
+  this.sayName=function(){
+    console.log("My ninja name is "+this.name);
+  }
+  this.showStats=function(){
+    console.log("Name:"+this.name,"Health:"+this.health,"Strength:"+strength,"Speed:"+speed);
+  }
+  this.drinkSake=function(){
+    this.health+=10;
+  }
+  this.punch=function(anotherNinja){
+    if(anotherNinja instanceof Ninja){
+    anotherNinja.health-=5;
+    console.log(anotherNinja.name+" was punched by "+this.name+" and lost 5 Health!");
+    }
+    else{
+      console.log("input correct type");
+    }
+  }
+  this.kick=function(anotherNinja){
+    if(anotherNinja instanceof Ninja){
+    var temp=strength*15;
+    anotherNinja.health-=temp;
+    console.log(anotherNinja.name+" was kicked by "+this.name+"and lost "+temp+" Health");
+    }
+    else{
+      console.log("input correct type");
+    }
+  }
+}
