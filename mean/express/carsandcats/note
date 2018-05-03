@@ -1,0 +1,8 @@
+Have '/cars' show your pictures of cars.
+
+Have '/cats' show your pictures of cats.
+
+Have 'cars/new' show a form to create a new car. The form does not have to do anything yet.
+
+Keep your index.html file in the static directory. It should render even when your server does not explicitly handle the '/' route
+
