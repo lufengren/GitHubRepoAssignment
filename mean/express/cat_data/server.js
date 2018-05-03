@@ -16,7 +16,7 @@ app.get("/detail1", function (request, response){
         age:"2",
         sleeping_spot:"under the bed"
     };
-    response.render('details',{catinfo:catinfo});
+    response.render('details',{name:"kitty",catinfo:catinfo});
 });
 
 app.get("/detail2", function (request, response){
@@ -25,7 +25,7 @@ app.get("/detail2", function (request, response){
         age:"5",
         sleeping_spot:"in a sunbeam"
     };
-    response.render('details',{catinfo:catinfo});
+    response.render('details',{name:"catty",catinfo:catinfo});
 });
 
 app.listen(8000, function () {
