@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sockets</title>
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="/socket.io/socket.io.js"></script>
 </head>
@@ -33,39 +33,44 @@
         </select>
         <br> Comment(optional):
         <br>
-        <textarea  cols="30" rows="10" id="comment"></textarea>
+        <textarea cols="30" rows="10" id="comment"></textarea>
         <br>
         <input id="subbutton" type="submit" value="submit">
     </form>
-   
+
     <script type="text/javascript">
-    var socket = io.connect();
+        var socket = io.connect();
         $(function () {
-            var tname = $("#name").val();
-            var location = $("#location").val();
-            var language = $("#language").val();
-            var comment = $("#comment").val();
-            
-            var data = {
-                //name:name,
-                location:location,
-                language:language,
-                //comment:comment
-            }
+
             $("#sur_form").submit(function (event) {
-                //console.log(tname);
+                var name = $("#name").val();
+                var location = $("#location").val();
+                var language = $("#language").val();
+                var comment = $("#comment").val();
+
+                var data = {
+                    name:name,
+                    location: location,
+                    language: language,
+                    comment:comment
+                }
                 event.preventDefault();
-                socket.emit('posting_form',{data:data});
-                
+                socket.emit('posting_form', {
+                    data: data
+                });
+
             });
             socket.on('subinfo', function (data) {
                 //console.log(data);
                 $("#subinfo").append("<span>You emitted the following information to the server:");
+                $("#subinfo").append(data.data.name);
                 $("#subinfo").append(data.data.location);
                 $("#subinfo").append(data.data.language);
+                $("#subinfo").append(data.data.comment);
             });
             socket.on('randomNum', function (data) {
-                $("#subinfo").append("<p>Your lucky number emitted by the server is "+data.data+"</p>");
+                $("#subinfo").append("<p>Your lucky number emitted by the server is " + data.data +
+                    "</p>");
             });
         })
     </script>
