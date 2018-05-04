@@ -23,6 +23,12 @@ io.on('connection', function (socket) {
         io.emit("count", {data:count});
         
     });
+    socket.on("reset", function (data) {
+        console.log(data.msg);
+        count=0;
+        console.log(count);
+        io.emit("resetcount", {data:count});
+    });
 });
 
 

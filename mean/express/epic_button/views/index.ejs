@@ -14,19 +14,30 @@
 <body>
     <h1>The button has been pushed <span></span> time(s)</h1>
     <p>Push the button to update the count!</p>
-    <a href="">
-        <button>Push the epic button</button>
-    </a>
+    
+        <button id="add">Push the epic button</button> <br>
+        <button id="reset">Reset</button>
+   
     <script type="text/javascript">
         var socket = io.connect();
         $(function () {
-            $("a").click(function (event) {
+            $("#add").click(function (event) {
                 event.preventDefault();
                 socket.emit("click", {
-                    msg: "button was clicked"
+                    msg: "add button was clicked"
                 });
             });
             socket.on("count", function (data) {
+                console.log(data.data);
+                $("span").html(data.data);
+            });
+            $("#reset").click(function (event) {
+                event.preventDefault();
+                socket.emit("reset", {
+                    msg: "reset button was clicked"
+                });
+            });
+            socket.on("resetcount", function (data) {
                 console.log(data.data);
                 $("span").html(data.data);
             });
