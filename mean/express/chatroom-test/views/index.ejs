@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="userinfo">
+            
+        </div>
+        <div id="chatbox">
+
+        </div>
+        <div id="disconnect">
+            
+        </div>
+        <form id="register">
+            Name:<input type="text" id="username">
+            <input type="submit" id="regsubmit" value="register">
+        </form>
+        <form action="" id="msgform" hidden>
+            Message:<input type="text" id="message">
+            <input type="submit" id="msgsubmit" value="send msg">
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        var socket = io.connect();
+        $(function () {
+            $("#register").submit(function(e){
+                e.preventDefault();
+                var username = {
+                    name:$("#username").val()
+                };
+                socket.emit("got_new_user",username);
+                $("#register").hide();
+                $("#msgform").show();
+            });
+            socket.on('new_user', function (userdata) {
+                $("#userinfo").append(`<p>${userdata.msg}</p>`);
+            });
+            $("#msgform").submit(function(e){
+                e.preventDefault();
+                var message = {
+                    msg:$("#message").val()
+                };
+                socket.emit("got_new_msg",message);
+            });
+            socket.on('new_msg', function (msgdata) {
+                $("#chatbox").append(`<p>${msgdata.msg}</p>`);
+            });
+            socket.on('disconnect_msg', function (msgdata) {
+                $("#disconnect").append(`<p>${msgdata.msg}</p>`);
+            });
+        })
+    </script>
+</body>
+</html>
