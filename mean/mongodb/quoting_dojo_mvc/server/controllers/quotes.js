@@ -36,7 +36,7 @@ module.exports = {
                 console.log('something went wrong');
             } else {
                 console.log('successfully retrive all quotes!');
-                response.render('../client/views/quotes', {
+                response.render('quotes', {
                     quotes: quotes
                 });
             }
