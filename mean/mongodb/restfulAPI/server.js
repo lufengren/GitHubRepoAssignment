@@ -1,8 +1,10 @@
 const express=require('express');
 const mongoose=require('mongoose');
 const bodyparser = require('body-parser');
+
 const app=express();
 app.use(bodyparser.json());
+app.use(express.static(__dirname + '/restfulangular/dist/restfulangular' ));
 mongoose.connect('mongodb://localhost/Tasks');
 
 const Taskschema=new mongoose.Schema({
