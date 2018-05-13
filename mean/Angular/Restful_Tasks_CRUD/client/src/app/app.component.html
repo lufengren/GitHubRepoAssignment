@@ -1,0 +1,22 @@
+<h2>Restful Tasks CRUD </h2>
+
+<ul>
+    <li *ngFor='let t of tasks'> 
+      <p>title: {{t.title}}</p>
+      <p>title: {{t.description}}</p>
+      <p>title: {{t.completed}}</p>
+      <button (click)="deleteTask(t._id)">delete</button>
+    </li>
+</ul>
+
+<form (submit)="onSubmit()">
+  <!-- use the json pipe to see how newTask changes in real time -->
+  <p> {{ newTask | json }} </p>
+  title:
+  <input type="text" name="newTask.title" [(ngModel)]="newTask.title" /> <br>
+  description:
+  <input type="text" name="newTask.description" [(ngModel)]="newTask.description" /> <br>
+  <input type="submit" value="Create Task" />
+</form>
+
+
