@@ -4,10 +4,12 @@ import { HttpService } from './http.service';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AlphaComponent } from './alpha/alpha.component';
+import { TaskComponent } from './task/task.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AlphaComponent
+    AlphaComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule,

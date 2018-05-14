@@ -11,17 +11,17 @@
 <ul>
     <li *ngFor='let t of tasks'> 
       <p>title: {{t.title}}</p>
-      <button (click)='getTask(t._id)'>Show</button>
-      
+      <!-- <button (click)='getTask(t._id)'>Show</button> -->
+      <button (click)='taskToShow(t)'>show</button>
     </li>
 </ul>
-
-<div *ngFor='let t of task'>
+<app-task *ngIf="selectedTask" [taskToShow]="selectedTask"></app-task> 
+<!-- <div *ngFor='let t of task'>
   <h3>Task detail</h3>
   <p>title: {{t.title}}</p>
   <p>description: {{t.description}}</p>
   <p>completed: {{t.completed}}</p>
-</div>
+</div> -->
 
 
 <!-- <ul>

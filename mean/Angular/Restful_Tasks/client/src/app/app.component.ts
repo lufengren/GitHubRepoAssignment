@@ -5,10 +5,11 @@ import { HttpService } from './http.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent{
   title = 'app';
   tasks =[];
   task =[];
+  selectedTask:any;
   constructor(private _httpService: HttpService){
     //this.tasks = [{title:'test',description:'desdes'},{title:'test',description:'desdes'},{title:'test',description:'desdes'}];
   }
@@ -25,11 +26,13 @@ export class AppComponent implements OnInit{
     //console.log(this.tasks);
     });
   }
-
-  getTask(id){
-    let observable = this._httpService.getTask(id);
-    observable.subscribe(datas => {console.log("Got the task!", datas)
-      this.task.push(datas);
-  });
-}
+  taskToShow(task){
+    this.selectedTask=task;
+  }
+//   getTask(id){
+//     let observable = this._httpService.getTask(id);
+//     observable.subscribe(datas => {console.log("Got the task!", datas)
+//       this.task.push(datas);
+//   });
+// }
 }
