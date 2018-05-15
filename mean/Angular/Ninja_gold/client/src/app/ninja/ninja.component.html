@@ -1,0 +1,43 @@
+<form (submit)="addScore()">
+  User: <input type="text" name="user" [(ngModel)]="user">
+  Total Score <input type="number" name="totalgold" [(ngModel)]="totalGold">
+  <input type="submit" value="save your score">
+</form>
+
+
+
+<div class="container">
+  <div class="box">
+    <h3>Farm</h3>
+    <p>Earns 2-5 gold</p>
+    <button (click)="process('farm',2,5)">Farm</button>
+  </div>
+  <div class="box">
+    <h3>Cave</h3>
+    <p>Earns 5-10 gold</p>
+    <button (click)="process('cave',5,10)">Cave</button>
+  </div>
+  <div class="box">
+    <h3>House</h3>
+    <p>Earns 7-15 gold</p>
+    <button (click)="process('house',7,15)">House</button>
+  </div>
+  <div class="box">
+    <h3>Casino</h3>
+    <p>Earns or lose up to 100 gold</p>
+    <button (click)="process('casino',-50,50)">Casino</button>
+  </div>
+  <ul>
+    <li *ngFor='let message of messages'>
+      {{message}}
+    </li>
+  </ul>
+</div>
+
+<div class="scores">
+  <ul>
+    <li *ngFor='let s of scores'>
+      {{s.user}} Score: {{s.score}}
+    </li>
+  </ul>
+</div>
