@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/bin/Debug/netcoreapp2.0/Human.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/bin/Debug/netcoreapp2.0/Human.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/bin/Debug/netcoreapp2.0/Human.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/bin/Debug/netcoreapp2.0/Human.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/bin/Debug/netcoreapp2.0/Human.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/obj/Debug/netcoreapp2.0/Human.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/obj/Debug/netcoreapp2.0/Human.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/obj/Debug/netcoreapp2.0/Human.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/obj/Debug/netcoreapp2.0/Human.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/obj/Debug/netcoreapp2.0/Human.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Human/obj/Debug/netcoreapp2.0/Human.pdb
