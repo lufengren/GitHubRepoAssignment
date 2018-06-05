@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/bin/Debug/netcoreapp2.0/puzzles.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/bin/Debug/netcoreapp2.0/puzzles.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/bin/Debug/netcoreapp2.0/puzzles.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/obj/Debug/netcoreapp2.0/puzzles.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/obj/Debug/netcoreapp2.0/puzzles.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/obj/Debug/netcoreapp2.0/puzzles.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/puzzles/obj/Debug/netcoreapp2.0/puzzles.pdb
