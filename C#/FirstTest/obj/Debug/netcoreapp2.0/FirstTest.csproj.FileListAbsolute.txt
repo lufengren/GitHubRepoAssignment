@@ -1,0 +1,10 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/bin/Debug/netcoreapp2.0/FirstTest.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/bin/Debug/netcoreapp2.0/FirstTest.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/bin/Debug/netcoreapp2.0/FirstTest.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/bin/Debug/netcoreapp2.0/FirstTest.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/bin/Debug/netcoreapp2.0/FirstTest.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/obj/Debug/netcoreapp2.0/FirstTest.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/obj/Debug/netcoreapp2.0/FirstTest.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/obj/Debug/netcoreapp2.0/FirstTest.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/obj/Debug/netcoreapp2.0/FirstTest.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/FirstTest/obj/Debug/netcoreapp2.0/FirstTest.pdb
