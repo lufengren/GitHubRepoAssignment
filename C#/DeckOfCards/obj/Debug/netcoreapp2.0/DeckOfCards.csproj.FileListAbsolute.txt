@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/bin/Debug/netcoreapp2.0/DeckOfCards.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/DeckOfCards/obj/Debug/netcoreapp2.0/DeckOfCards.pdb
