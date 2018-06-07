@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/bin/Debug/netcoreapp2.0/firstASP.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/bin/Debug/netcoreapp2.0/firstASP.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/bin/Debug/netcoreapp2.0/firstASP.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/bin/Debug/netcoreapp2.0/firstASP.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/bin/Debug/netcoreapp2.0/firstASP.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/obj/Debug/netcoreapp2.0/firstASP.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/obj/Debug/netcoreapp2.0/firstASP.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/obj/Debug/netcoreapp2.0/firstASP.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/obj/Debug/netcoreapp2.0/firstASP.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/obj/Debug/netcoreapp2.0/firstASP.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/firstASP/obj/Debug/netcoreapp2.0/firstASP.pdb
