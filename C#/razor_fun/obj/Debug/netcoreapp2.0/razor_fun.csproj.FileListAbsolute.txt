@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/bin/Debug/netcoreapp2.0/razor_fun.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/bin/Debug/netcoreapp2.0/razor_fun.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/bin/Debug/netcoreapp2.0/razor_fun.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/bin/Debug/netcoreapp2.0/razor_fun.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/bin/Debug/netcoreapp2.0/razor_fun.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/obj/Debug/netcoreapp2.0/razor_fun.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/obj/Debug/netcoreapp2.0/razor_fun.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/obj/Debug/netcoreapp2.0/razor_fun.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/obj/Debug/netcoreapp2.0/razor_fun.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/obj/Debug/netcoreapp2.0/razor_fun.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/razor_fun/obj/Debug/netcoreapp2.0/razor_fun.pdb

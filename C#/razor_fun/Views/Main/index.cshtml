@@ -1,0 +1,33 @@
+<!-- Create a new string array in a View, using Razor.  
+Then, iterate through the array - 
+generating a <p> tag for each iteration, 
+and placing the contents on the string from your 
+array within the inner text of the <p> element. -->
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Home</title>
+        <link rel="stylesheet" href="~/css/home.css"/>
+    </head>
+    <body>
+        @{
+            var stringList=new List<string>{
+                "one",
+                "two",
+                "three",
+                "four",
+                "five"
+            };
+            foreach (var item in stringList)
+            {
+                <p>@item</p>
+            }
+
+        }
+    </body>
+</html>
+        
