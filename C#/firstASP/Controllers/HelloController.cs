@@ -6,9 +6,9 @@ using Microsoft.AspNetCore.Mvc;
             //for each route this controller is to handle:
             [HttpGet]       //type of request
             [Route("")]     //associated route string (exclude the leading /)
-            public string Index()
+            public IActionResult Index()
             {
-                return "This is my index";
+                return View();
             }
             
         }

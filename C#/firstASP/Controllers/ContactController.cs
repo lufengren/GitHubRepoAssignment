@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Mvc;
         {
             [HttpGet]
             [Route("contact")]
-            public string Index()
+            public IActionResult Index()
             {
-                return "These is mt contact";
+                return View();
             }
         }
     }

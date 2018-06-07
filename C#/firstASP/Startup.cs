@@ -25,7 +25,8 @@ namespace firstASP
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
+            app.UseStaticFiles();
             app.UseMvc(); 
             // app.Run(async (context) =>
             // {

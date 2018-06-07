@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Mvc;
         {
             [HttpGet]
             [Route("projects")]
-            public string Index()
+            public IActionResult Index()
             {
-                return "These are my projects";
+                return View();
             }
         }
     }
