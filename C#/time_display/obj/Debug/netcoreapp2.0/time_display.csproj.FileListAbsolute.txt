@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/bin/Debug/netcoreapp2.0/time_display.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/bin/Debug/netcoreapp2.0/time_display.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/bin/Debug/netcoreapp2.0/time_display.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/bin/Debug/netcoreapp2.0/time_display.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/bin/Debug/netcoreapp2.0/time_display.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/obj/Debug/netcoreapp2.0/time_display.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/obj/Debug/netcoreapp2.0/time_display.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/obj/Debug/netcoreapp2.0/time_display.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/obj/Debug/netcoreapp2.0/time_display.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/obj/Debug/netcoreapp2.0/time_display.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/time_display/obj/Debug/netcoreapp2.0/time_display.pdb
