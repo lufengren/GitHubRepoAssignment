@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/bin/Debug/netcoreapp2.0/viewModel.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/bin/Debug/netcoreapp2.0/viewModel.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/bin/Debug/netcoreapp2.0/viewModel.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/bin/Debug/netcoreapp2.0/viewModel.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/bin/Debug/netcoreapp2.0/viewModel.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/obj/Debug/netcoreapp2.0/viewModel.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/obj/Debug/netcoreapp2.0/viewModel.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/obj/Debug/netcoreapp2.0/viewModel.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/obj/Debug/netcoreapp2.0/viewModel.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/obj/Debug/netcoreapp2.0/viewModel.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/viewModel/obj/Debug/netcoreapp2.0/viewModel.pdb

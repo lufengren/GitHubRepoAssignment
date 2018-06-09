@@ -1,0 +1,12 @@
+@model IEnumerable<viewModel.Models.User>
+<h1>Here are some users!</h1>
+
+@foreach(var item in Model){
+    <p>
+    @Html.DisplayFor(modelItem => item.FirstName)
+    </p>
+
+    <p>
+    @Html.DisplayFor(modelItem => item.LastName)
+    </p>
+}

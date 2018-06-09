@@ -1,0 +1,10 @@
+@model List<viewModel.Models.User>
+<h1>Here are some users!</h1>
+
+@foreach(var item in Model){
+    <p>
+    @item.FirstName @item.LastName
+    </p>
+}
+
+
