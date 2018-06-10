@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/bin/Debug/netcoreapp2.0/passcode.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/bin/Debug/netcoreapp2.0/passcode.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/bin/Debug/netcoreapp2.0/passcode.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/bin/Debug/netcoreapp2.0/passcode.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/bin/Debug/netcoreapp2.0/passcode.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/obj/Debug/netcoreapp2.0/passcode.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/obj/Debug/netcoreapp2.0/passcode.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/obj/Debug/netcoreapp2.0/passcode.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/obj/Debug/netcoreapp2.0/passcode.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/obj/Debug/netcoreapp2.0/passcode.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/passcode/obj/Debug/netcoreapp2.0/passcode.pdb
