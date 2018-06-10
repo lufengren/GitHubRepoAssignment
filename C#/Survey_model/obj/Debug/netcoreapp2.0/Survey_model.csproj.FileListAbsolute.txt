@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/bin/Debug/netcoreapp2.0/Survey_model.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/bin/Debug/netcoreapp2.0/Survey_model.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/bin/Debug/netcoreapp2.0/Survey_model.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/bin/Debug/netcoreapp2.0/Survey_model.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/bin/Debug/netcoreapp2.0/Survey_model.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/obj/Debug/netcoreapp2.0/Survey_model.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/obj/Debug/netcoreapp2.0/Survey_model.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/obj/Debug/netcoreapp2.0/Survey_model.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/obj/Debug/netcoreapp2.0/Survey_model.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/obj/Debug/netcoreapp2.0/Survey_model.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Survey_model/obj/Debug/netcoreapp2.0/Survey_model.pdb
