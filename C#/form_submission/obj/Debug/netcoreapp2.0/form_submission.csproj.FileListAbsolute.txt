@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/bin/Debug/netcoreapp2.0/form_submission.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/bin/Debug/netcoreapp2.0/form_submission.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/bin/Debug/netcoreapp2.0/form_submission.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/bin/Debug/netcoreapp2.0/form_submission.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/bin/Debug/netcoreapp2.0/form_submission.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/obj/Debug/netcoreapp2.0/form_submission.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/obj/Debug/netcoreapp2.0/form_submission.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/obj/Debug/netcoreapp2.0/form_submission.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/obj/Debug/netcoreapp2.0/form_submission.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/obj/Debug/netcoreapp2.0/form_submission.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/form_submission/obj/Debug/netcoreapp2.0/form_submission.pdb
