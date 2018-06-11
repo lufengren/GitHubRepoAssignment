@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/bin/Debug/netcoreapp2.0/quoting_dojo.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/bin/Debug/netcoreapp2.0/quoting_dojo.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/bin/Debug/netcoreapp2.0/quoting_dojo.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/bin/Debug/netcoreapp2.0/quoting_dojo.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/bin/Debug/netcoreapp2.0/quoting_dojo.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/obj/Debug/netcoreapp2.0/quoting_dojo.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/obj/Debug/netcoreapp2.0/quoting_dojo.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/obj/Debug/netcoreapp2.0/quoting_dojo.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/obj/Debug/netcoreapp2.0/quoting_dojo.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/obj/Debug/netcoreapp2.0/quoting_dojo.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/quoting_dojo/obj/Debug/netcoreapp2.0/quoting_dojo.pdb
