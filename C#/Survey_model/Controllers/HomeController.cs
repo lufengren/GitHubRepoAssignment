@@ -16,12 +16,26 @@ namespace Survey_model.Controllers
         }
 
         [HttpPost]
-        [Route("result")]
-        public IActionResult result(Ninja newninja)
-        {
-            return View(newninja);
+        public IActionResult Index(Ninja newninja){
+            if(ModelState.IsValid){
+                return View("result",newninja);
+            }else{
+                return View(newninja);
+            }
         }
-        
+
+        // [HttpPost]
+        // public IActionResult result(Ninja newninja)
+        // {
+        //     if(ModelState.IsValid){
+        //         Console.WriteLine("success");
+        //         return View(newninja);
+        //     }
+        //     else{
+        //         Console.WriteLine("wrong");
+        //         return View("Index",newninja);
+        //     }
+        // }
 
         public IActionResult Error()
         {

@@ -1,22 +1,33 @@
-﻿@{
+﻿@model Ninja
+@{
     ViewData["Title"] = "Home Page";
 }
+
 <br> <br>
-<form action="result" method="post">
-    Your name: <input type="text" name="Name"> <br>
-    Your location: 
-    <select name="Location">
+<form asp-action="" asp-controller="Home" method="post">
+    <span asp-validation-for="Name"></span> <br>
+    <label asp-for="Name"></label>
+    <input asp-for="Name"> <br>
+    
+    <span asp-validation-for="Location"></span> <br>
+    <label asp-for="Location"></label>
+    <select asp-for="Location">
         <option value="San Jose">San Jose</option>
         <option value="Seattle">Seattle</option>
         <option value="New York">New York</option>
     </select>  <br>
-    Favorite Language:
-    <select name="Language">
-        <option value="Java">Java</option>
-        <option value="C#">C#</option>
-        <option value="Python">Python</option>
-    </select> <br>
-    Comment:
-    <textarea name="Comment">   </textarea> <br>
+
+    <span asp-validation-for="Language"></span> <br>
+    <label asp-for="Language"></label>
+    <select asp-for="Language">
+        <option value="San Jose">San Jose</option>
+        <option value="Seattle">Seattle</option>
+        <option value="New York">New York</option>
+    </select>  <br>
+    
+    <span asp-validation-for="Comment"></span> <br>
+    <label asp-for="Comment"></label>
+    <textarea asp-for="Comment">   </textarea> <br>
+    
     <input type="submit" value="Submit">
 </form>
