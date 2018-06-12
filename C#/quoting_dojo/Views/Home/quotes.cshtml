@@ -1,14 +1,10 @@
 <br>
 <h1>Here are the awesome quotes</h1>
-<table>
-    <tr>
-        <th>name</th>
-        <th>quote</th>
-    </tr>
-    @foreach(var quote in @ViewBag.AllQuotes){
-        <tr>
-            <td>@quote["name"]</td>
-            <td>@quote["quote"]</td>
-        </tr>
-    }
-</table>
+
+@foreach(var quote in @ViewBag.AllQuotes){
+<div>
+    <p>"@quote["quote"]"</p> 
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- @quote["name"] at @quote["created_at"]</p>
+    <hr>
+</div>
+}
