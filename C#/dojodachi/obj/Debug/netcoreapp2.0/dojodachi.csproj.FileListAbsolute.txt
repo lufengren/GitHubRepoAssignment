@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/bin/Debug/netcoreapp2.0/dojodachi.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/dojodachi/obj/Debug/netcoreapp2.0/dojodachi.pdb
