@@ -1,0 +1,18 @@
+﻿<br>
+<h1>Lost in the Woods &nbsp;&nbsp;<small>list of local hiking trails</small></h1>
+
+<table>
+    <tr>
+        <th>Trail Name</th>
+        <th>Trail Length</th>
+        <th>Elevation Change</th>
+    </tr>
+    @foreach(var item in @ViewBag.AllResult){
+        <tr>
+            <td><a href="detail/@item.Id">@item.Name</a></td>
+            <td>@item.Length <span>Miles</span></td>
+            <td>@item.Elevation <span>feet</span></td>
+        </tr>
+    }
+</table>
+<a href="NewTrail"><button>Add a new Trail</button></a>

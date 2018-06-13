@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/bin/Debug/netcoreapp2.0/lost_in_wood.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/bin/Debug/netcoreapp2.0/lost_in_wood.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/bin/Debug/netcoreapp2.0/lost_in_wood.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/bin/Debug/netcoreapp2.0/lost_in_wood.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/bin/Debug/netcoreapp2.0/lost_in_wood.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/obj/Debug/netcoreapp2.0/lost_in_wood.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/obj/Debug/netcoreapp2.0/lost_in_wood.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/obj/Debug/netcoreapp2.0/lost_in_wood.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/obj/Debug/netcoreapp2.0/lost_in_wood.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/obj/Debug/netcoreapp2.0/lost_in_wood.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/lost_in_wood/obj/Debug/netcoreapp2.0/lost_in_wood.pdb

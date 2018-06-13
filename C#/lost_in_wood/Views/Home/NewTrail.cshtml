@@ -1,0 +1,42 @@
+@model lostinwood
+<br>
+<h1>Add a New Trail</h1>
+<form asp-action="NewTrail" asp-controller="Home" method="post">
+    <span asp-validation-for="Name"></span> <br>
+    Trail Name: <br>
+    <input type="text" asp-for="Name"> <br>
+
+    <span asp-validation-for="Description"></span> <br>
+    Description: <br>
+    <textarea asp-for="Description" cols="30" rows="10"></textarea> <br>
+
+    <span asp-validation-for="Length"></span> <br>
+    Trail Length: <br>
+    <input type="text" asp-for="Length"> <br>
+    
+    <span asp-validation-for="Elevation"></span> <br>
+    Elevation Change: <br>
+    <input type="text" asp-for="Elevation"> <br>
+    
+    Latitude Longitude: <br>
+    <input type="text" name="Latitude"> 
+    <input type="text" name="Longitude"> <br> <br>
+
+    <input type="submit" value="create record">
+</form>
+
+
+<!-- <form action="Add" method="post">
+    Trail Name: <br>
+    <input type="text" name="Name"> <br>
+    Description: <br>
+    <textarea name="Description" cols="30" rows="10"></textarea> <br>
+    Trail Length: <br>
+    <input type="text" name="Length"> <br>
+    Elevation Change: <br>
+    <input type="text" name="Elevation"> <br>
+    Latitude Longitude: <br>
+    <input type="text" name="Latitude"> 
+    <input type="text" name="Longitude"> <br> <br>
+    <input type="submit" value="create record">
+</form> -->
