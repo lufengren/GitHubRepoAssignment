@@ -1,0 +1,9 @@
+<br>
+@foreach(var result in @ViewBag.results){
+<div>
+    <p>Review for: @result.restname      @result.stars</p>
+    <p>Reviewer: @result.name, @result.created_at</p>
+    <p>@result.review</p>
+    <hr>
+</div>
+}

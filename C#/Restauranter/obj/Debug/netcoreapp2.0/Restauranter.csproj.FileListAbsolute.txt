@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/bin/Debug/netcoreapp2.0/Restauranter.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Restauranter/obj/Debug/netcoreapp2.0/Restauranter.pdb
