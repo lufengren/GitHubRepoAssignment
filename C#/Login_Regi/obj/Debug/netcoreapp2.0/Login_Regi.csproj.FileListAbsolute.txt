@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/bin/Debug/netcoreapp2.0/Login_Regi.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/bin/Debug/netcoreapp2.0/Login_Regi.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/bin/Debug/netcoreapp2.0/Login_Regi.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/bin/Debug/netcoreapp2.0/Login_Regi.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/bin/Debug/netcoreapp2.0/Login_Regi.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/obj/Debug/netcoreapp2.0/Login_Regi.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/obj/Debug/netcoreapp2.0/Login_Regi.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/obj/Debug/netcoreapp2.0/Login_Regi.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/obj/Debug/netcoreapp2.0/Login_Regi.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/obj/Debug/netcoreapp2.0/Login_Regi.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Login_Regi/obj/Debug/netcoreapp2.0/Login_Regi.pdb
