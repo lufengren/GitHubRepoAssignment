@@ -6,6 +6,10 @@ namespace Login_Regi.Models
         // base() calls the parent class' constructor passing the "options" parameter along
         public logregContext(DbContextOptions<logregContext> options) : base(options) { }
         public DbSet<logreg> logreg { get; set; }
-        // public DbSet<login> login { get; set; }
+        public DbSet<log> log { get; set; }
+        public DbSet<balances> balances { get; set; }
+        //public DbSet<log> login { get; set; }
+        
+        
     }
 }

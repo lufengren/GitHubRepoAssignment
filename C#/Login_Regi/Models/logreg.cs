@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 namespace Login_Regi.Models
 {
@@ -19,10 +20,19 @@ namespace Login_Regi.Models
         [MinLength(8)]
         [DataType(DataType.Password)]
         public string password { get; set; }
+        public int balance {get;set;}
         // [Required]
         // [DataType(DataType.Password)]
         // [Compare("password")]
         // public string confirmpass { get; set; }
+        public List<log> logs{get;set;}
+
+        public logreg()
+        {
+            logs=new List<log>();
+        }
+
+
 
         public static implicit operator logreg(logregContext v)
         {

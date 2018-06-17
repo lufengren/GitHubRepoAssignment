@@ -1,0 +1,28 @@
+<br>
+<h1>Welcome,@ViewBag.name</h1>
+<h3>Current Balance:@ViewBag.balance</h3>
+
+<form action="transaction" method="post">
+    Deposit/Withdraw: 
+    <select name="selection">
+        <option value="100">100</option>
+        <option value="200">200</option>
+        <option value="-200">-200</option>
+    </select> 
+    <input type="submit" value="Submit">
+</form>
+
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>Date</th>
+    </tr>
+    
+        @foreach(var item in @ViewBag.success){
+        <tr>
+            <td>@item.transaction</td>
+            <td>@item.created_at</td>
+        </tr>
+        }
+    
+</table>

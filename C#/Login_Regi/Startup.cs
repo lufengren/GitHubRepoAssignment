@@ -33,6 +33,7 @@ namespace Login_Regi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSession();
             services.AddMvc();
             services.Configure<MySqlOptions>(Configuration.GetSection("DBInfo"));
             services.AddDbContext<logregContext>(options => options.UseMySql(Configuration["DBInfo:ConnectionString"]));
@@ -49,7 +50,7 @@ namespace Login_Regi
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            app.UseSession();
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
