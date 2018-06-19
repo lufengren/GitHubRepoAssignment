@@ -1,0 +1,33 @@
+@{ Layout=null; }
+<h1>Coding Wall</h1>
+<hr>
+<h3>Welcome,@ViewBag.username &nbsp;&nbsp;&nbsp;&nbsp;
+    <small>
+        <a href="logoff">logoff</a>
+    </small>
+</h3>
+
+<form action="dashboard" method="post">
+    Post a message:
+    <br>
+    <textarea name="post" cols="35" rows="4" required></textarea>
+    <input type="submit" value="post a message">
+</form>
+<br>
+@foreach(var item in @ViewBag.allmessages){
+    
+    <span>@item.created_at @item.users.firstname</span>
+    <p>@item.message</p>
+    @foreach(var comment in @item.comments){
+    <span>@comment.created_at  @comment.users.firstname</span>
+    <p>@comment.comment</p>
+    } 
+
+    <form action="comment/@item.MessageId" method="post">
+        post a comment <br>
+        <textarea name="comment"  cols="30" rows="3" required></textarea>
+        <input type="submit" value="comment">
+    </form>
+
+    <hr>
+}

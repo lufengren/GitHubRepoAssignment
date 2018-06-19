@@ -1,0 +1,15 @@
+﻿@model login
+<br>
+<p>@ViewBag.err</p>
+<form asp-action="" asp-controller="Home" method="post">
+    <span asp-validation-for="email"></span> <br>
+    Email:
+    <input type="text" asp-for="email"> <br>
+
+    <span asp-validation-for="password"></span> <br>
+    Password:
+    <input type="password" asp-for="password"> <br>
+
+    <input type="submit" value="submit">
+</form>
+<a href="register">Need Register?</a>

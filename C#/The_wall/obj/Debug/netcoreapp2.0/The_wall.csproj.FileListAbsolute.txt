@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/bin/Debug/netcoreapp2.0/The_wall.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/bin/Debug/netcoreapp2.0/The_wall.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/bin/Debug/netcoreapp2.0/The_wall.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/bin/Debug/netcoreapp2.0/The_wall.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/bin/Debug/netcoreapp2.0/The_wall.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/obj/Debug/netcoreapp2.0/The_wall.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/obj/Debug/netcoreapp2.0/The_wall.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/obj/Debug/netcoreapp2.0/The_wall.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/obj/Debug/netcoreapp2.0/The_wall.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/obj/Debug/netcoreapp2.0/The_wall.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/The_wall/obj/Debug/netcoreapp2.0/The_wall.pdb

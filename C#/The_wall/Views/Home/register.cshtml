@@ -1,0 +1,24 @@
+@model users
+<br>
+<form asp-action="register" asp-controller="Home" method="post">
+<span asp-validation-for="firstname"></span> <br>
+FirstName:
+<input type="text" asp-for="firstname"> <br>
+<span asp-validation-for="lastname"></span> <br>
+LastName:
+<input type="text" asp-for="lastname">  <br>
+<span asp-validation-for="email"></span> <br>
+Email:
+<input type="text" asp-for="email">  <br>
+<span asp-validation-for="password"></span> <br>
+Password:
+<input type="password" asp-for="password"> <br>
+
+<p>@ViewBag.err</p>
+Confirm Password:
+<input type="password" name="confirmpass"> <br>
+
+<input type="submit" value="submit">
+</form>
+
+<a href="http://localhost:5000">Already Registered</a>
