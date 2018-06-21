@@ -1,0 +1,8 @@
+span {
+    color:red;
+}
+
+h1 a {
+    display: inline-block;
+    padding-left: 100px;
+}

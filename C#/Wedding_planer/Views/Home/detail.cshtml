@@ -1,0 +1,23 @@
+@{
+    Layout=null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>@ViewBag.wedding.wedderone &amp; @ViewBag.wedding.weddertwo Wedding</h1>
+    <a href="http://localhost:5000/dashboard">Dashboard</a>
+    <h3>Date:@ViewBag.wedding.date</h3>
+    <h3>Guests:</h3>
+    @foreach(var item in @ViewBag.wedding.guests){
+        <p>@item.user.firstname</p>
+    }
+</body>
+</html>
+
+

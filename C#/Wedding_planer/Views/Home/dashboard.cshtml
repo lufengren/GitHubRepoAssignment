@@ -1,0 +1,54 @@
+@{
+    Layout=null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+</head>
+<body>
+    <h1>Welcome to the Wedding Planner <small><a href="logoff">logoff</a></small></h1>
+<table>
+    <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guest</th>
+        <th>Action</th>
+    </tr>
+    @foreach(var item in @ViewBag.allweddings){
+        <tr>
+        <td><a href="detail/@item.weddingid">@item.wedderone &amp; @item.weddertwo</a></td>
+        <td>@item.date.ToString("MMMM dd yyyy")</td>
+        <td>@item.guests.Count</td>
+        <td>
+            @{
+                if(@item.user.UserId==@ViewBag.userid){
+                    <a href="delete/@ViewBag.userid">delete</a>
+                }
+                else if (@item.guests.Count == 0){
+                    <a href="attend/@item.weddingid">RSVP</a>
+                }
+                else{
+                    @foreach(var subitem in @item.guests){
+                        if(@subitem.UserId==@ViewBag.userid){
+                            <a href="cancel/@item.weddingid">Un-RSVP</a>
+                        }
+                        else{
+                            <a href="attend/@item.weddingid">RSVP</a>
+                        }
+                    }
+                }
+            }
+        </td>
+        </tr>
+    }
+    
+</table>
+
+<a href="newwedding"><button>New Wedding</button></a>
+</body>
+</html>

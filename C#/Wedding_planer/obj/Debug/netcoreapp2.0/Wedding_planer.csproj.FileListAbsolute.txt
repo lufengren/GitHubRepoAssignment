@@ -1,0 +1,11 @@
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/bin/Debug/netcoreapp2.0/Wedding_planer.deps.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/bin/Debug/netcoreapp2.0/Wedding_planer.runtimeconfig.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/bin/Debug/netcoreapp2.0/Wedding_planer.runtimeconfig.dev.json
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/bin/Debug/netcoreapp2.0/Wedding_planer.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/bin/Debug/netcoreapp2.0/Wedding_planer.pdb
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/obj/Debug/netcoreapp2.0/Wedding_planer.csprojResolveAssemblyReference.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/obj/Debug/netcoreapp2.0/Wedding_planer.csproj.CoreCompileInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/obj/Debug/netcoreapp2.0/Wedding_planer.AssemblyInfoInputs.cache
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/obj/Debug/netcoreapp2.0/Wedding_planer.AssemblyInfo.cs
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/obj/Debug/netcoreapp2.0/Wedding_planer.dll
+/Users/jianbozhu/GitHubRepoAssignment/C#/Wedding_planer/obj/Debug/netcoreapp2.0/Wedding_planer.pdb

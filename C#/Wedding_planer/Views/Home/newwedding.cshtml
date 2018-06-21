@@ -1,0 +1,33 @@
+@model weddings
+@{
+    Layout=null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/css/newwedding.css" />
+</head>
+<body>
+    <h1>Plan Your Wedding <small><a href="logoff">logoff</a></small></h1>
+    <span>@ViewBag.err</span> <br>
+    <form asp-action="newwedding" asp-controller="Home" method="post">
+    <span asp-validation-for="wedderone"></span> <br>
+    Wedder One:
+    <input type="text" asp-for="wedderone"> <br>
+    <span asp-validation-for="weddertwo"></span> <br>
+    Wedder Two:
+    <input type="text" asp-for="weddertwo"> <br>
+    <span asp-validation-for="date"></span> <br>
+    Date:
+    <input type="date" asp-for="date"> <br>
+    <span asp-validation-for="address"></span> <br>
+    Wedding Address:
+    <input type="text" asp-for="address"> <br>
+    <input type="submit" value="Create">
+    </form> 
+</body>
+</html>
