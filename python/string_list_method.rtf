@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red153\green168\blue186;\red32\green32\blue32;\red149\green184\blue79;
+\red191\green100\blue38;\red86\green132\blue173;\red117\green114\blue185;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 words = \cf4 "It's thanksgiving day. It's my birthday,too!"\
+\cf2 newwords = words\
+\cf5 print \cf2 words.find(\cf4 "day"\cf2 )\
+\
+\cf5 print \cf2 newwords.replace(\cf4 "day"\cf5 , \cf4 "month"\cf2 )\
+\
+\
+\
+\
+x = [\cf6 \cb3 2\cf5 \cb3 , \cf6 \cb3 54\cf5 \cb3 , \cf6 \cb3 6\cf5 \cb3 , \cf6 \cb3 7\cf5 \cb3 , \cf6 \cb3 9\cf2 \cb3 ]\
+\cf5 print \cf7 \cb3 min\cf2 \cb3 (x)\
+\cf5 print \cf7 \cb3 max\cf2 \cb3 (x)\
+\
+\
+\
+\
+x = [\cf4 "hello"\cf5 , \cf6 \cb3 2\cf5 \cb3 , \cf6 \cb3 54\cf5 \cb3 , \cf2 -\cf6 \cb3 2\cf5 \cb3 , \cf6 \cb3 7\cf5 \cb3 , \cf6 \cb3 12\cf5 \cb3 , \cf6 \cb3 98\cf5 \cb3 , \cf4 "world"\cf2 ]\
+newx = []\
+first = x[\cf6 \cb3 0\cf2 \cb3 ]\
+last = x[-\cf6 \cb3 1\cf2 \cb3 ]\
+newx.append(first)\
+newx.append(last)\
+\cf5 print \cf2 newx\
+\
+\
+\
+x = [\cf6 \cb3 19\cf5 \cb3 ,\cf6 \cb3 2\cf5 \cb3 ,\cf6 \cb3 54\cf5 \cb3 ,\cf2 -\cf6 \cb3 2\cf5 \cb3 ,\cf6 \cb3 7\cf5 \cb3 ,\cf6 \cb3 12\cf5 \cb3 ,\cf6 \cb3 98\cf5 \cb3 ,\cf6 \cb3 32\cf5 \cb3 ,\cf6 \cb3 10\cf5 \cb3 ,\cf2 -\cf6 \cb3 3\cf5 \cb3 ,\cf6 \cb3 6\cf2 \cb3 ]\
+x.sort()\
+len = \cf7 \cb3 len\cf2 \cb3 (x)\
+list1 = x[\cf6 \cb3 0\cf2 \cb3 :\cf7 \cb3 int\cf2 \cb3 (len/\cf6 \cb3 2\cf2 \cb3 )]\
+list2 = x[\cf7 \cb3 int\cf2 \cb3 (len/\cf6 \cb3 2\cf2 \cb3 ):]\
+list2.insert(\cf6 \cb3 0\cf5 \cb3 ,\cf2 list1)\
+\cf5 print \cf2 list2\
+}
